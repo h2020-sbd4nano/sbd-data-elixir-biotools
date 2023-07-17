@@ -18,7 +18,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "BridgeDb" ;
   dc:description "BridgeDb is a framework to map identifiers between various databases.  It includes a Java library that provides an API to work with identifier-identifier mapping databases and resources."@en ;
-  dct:license <Apache-2.0> ;
+  dct:license <http://www.apache.org/licenses/LICENSE-2.0> ;
   foaf:page <http://bridgedb.github.io/> .
   
 
@@ -34,7 +34,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "ECTO" ;
   dc:description "The Environmental Conditions, Treatments, and Exposures Ontology (ECTO): connecting toxicology and exposure to human health and beyond"@en ;
-  dct:license <CC-BY-3.0> ;
+  dct:license <http://creativecommons.org/licenses/by/3.0/> ;
   foaf:page <http://www.obofoundry.org/ontology/ecto.html> .
   
 
@@ -58,7 +58,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "PCP-LOD" ;
   dc:description "Principal Component Pursuit for Pattern Identification in Environmental Mixtures."@en ;
-  dct:license <BSD-2-Clause> ;
+  dct:license <https://opensource.org/license/bsd-2-clause/> ;
   foaf:page <http://github.com/lizzyagibson/PCP-LOD> .
   
 
@@ -66,7 +66,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "DIADpredictor" ;
   dc:description "DIADpredictor: in silico prediction for drug-induced autoimmune diseases (DIAD) with machine learning."@en ;
-  dct:license <Other> ;
+  dct:license <http://example.com/unknown> ;
   foaf:page <http://diad.sapredictor.cn/> .
   
 
@@ -82,7 +82,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "LOTUS" ;
   dc:description "LOTUS is a comprehensive collection of documented structure-organism pairs. Within the frame of current computational approaches in Natural Products research and related fields, these documented structure-organism pairs should allow a more complete understanding of organisms and their chemistry."@en ;
-  dct:license <MIT> ;
+  dct:license <https://opensource.org/licenses/MIT> ;
   foaf:page <https://lotus.naturalproducts.net> .
   
 
@@ -114,7 +114,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "BAHAMA" ;
   dc:description "Bayesian Hierarchical Analyses of MedDRA-coded Adverse Events (BAHAMA): A Bayesian hierarchical model for the detection of MedDRA coded adverse events in RCTs."@en ;
-  dct:license <Not licensed> ;
+  dct:license <https://www.wikidata.org/entity/Q50423863> ;
   foaf:page <https://github.com/Alma-Revers/BAHAMA> .
   
 
@@ -122,7 +122,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "Detective-QSAR" ;
   dc:description "Detective-QSAR is a web applications to evaluate the known/unknown spectra aquired by MS"@en ;
-  dct:license <CC-BY-4.0> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   foaf:page <http://www.mixture-platform.net/Detective_QSAR_Med_Open/> .
   
 
@@ -138,7 +138,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "AddictedChem" ;
   dc:description "AddictedChem is a base of controlled substances and a platform for predicting NPS."@en ;
-  dct:license <Other> ;
+  dct:license <http://example.com/unknown> ;
   foaf:page <http://design.rxnfinder.org/addictedchem/prediction/> .
   
 
@@ -154,7 +154,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "ToxinPred2" ;
   dc:description "A webserver for designing and predicting toxic and non-toxic proteins."@en ;
-  dct:license <GPL-3.0> ;
+  dct:license <https://opensource.org/licenses/GPL-3.0> ;
   foaf:page <https://webs.iiitd.edu.in/raghava/toxinpred2/> .
   
 
@@ -162,7 +162,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "CAS Common Chemistry" ;
   dc:description "CAS Common Chemistry is an open web resource that provides access to reliable chemical substance information for the scientific community."@en ;
-  dct:license <CC-BY-NC-4.0> ;
+  dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
   foaf:page <https://commonchemistry.cas.org/> .
   
 
@@ -170,7 +170,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "Nextcast" ;
   dc:description "A software suite to analyse and model toxicogenomics data."@en ;
-  dct:license <Not licensed> ;
+  dct:license <https://www.wikidata.org/entity/Q50423863> ;
   foaf:page <https://github.com/fhaive/nextcast> .
   
 
@@ -178,7 +178,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "Rtivity" ;
   dc:description "Automated analysis of activity, sleep, and rhythmic behaviour in various animal species with the Rtivity software."@en ;
-  dct:license <Not licensed> ;
+  dct:license <https://www.wikidata.org/entity/Q50423863> ;
   foaf:page <https://ruisilva.shinyapps.io/rtivity/> .
   
 
@@ -186,7 +186,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "kc-hits" ;
   dc:description "A tool to aid in the evaluation and classification of chemical carcinogens."@en ;
-  dct:license <MIT> ;
+  dct:license <https://opensource.org/licenses/MIT> ;
   foaf:page <https://gitlab.com/i1650/kc-hits.git> .
   
 
@@ -194,7 +194,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "Tox-GAN" ;
   dc:description "An Artificial Intelligence Approach Alternative to Animal Studies."@en ;
-  dct:license <Not licensed> ;
+  dct:license <https://www.wikidata.org/entity/Q50423863> ;
   foaf:page <https://github.com/XC-NCTR/Tox-GAN> .
   
 
@@ -234,7 +234,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "AOP-helpFinder" ;
   dc:description "AOP-helpFinder is a web tool for identification and extraction of associations between stressors and biological events at various level of the biological organization (molecular initiating event (MIE), key event (KE), and adverse outcome (AO)). AOP-helpFinder is a hybrid tool, combining text mining and graph theory. Currently, AOP-helpFinder screens all the >30 millions of abstracts available from the PubMed database, to decipher co-mentioned terms (e.g. a stressor and a MIE)."@en ;
-  dct:license <CECILL-2.1> ;
+  dct:license <https://opensource.org/licenses/CECILL-2.1> ;
   foaf:page <http://aop-helpfinder.u-paris-sciences.fr/index.php> .
   
 
@@ -242,7 +242,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "ToxPiGIS Toolkit" ;
   dc:description "The ToxPi framework provides a method for transparently integrating and visualizing data across disparate information domains and is often used to determine risk values for the data being analyzed."@en ;
-  dct:license <Not licensed> ;
+  dct:license <https://www.wikidata.org/entity/Q50423863> ;
   foaf:page <https://github.com/Jonathon-Fleming/ToxPi-GIS> .
   
 
@@ -250,7 +250,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "MPTHub" ;
   dc:description "An open-source software for characterizing the transport of particles in biorelevant media."@en ;
-  dct:license <GPL-3.0> ;
+  dct:license <https://opensource.org/licenses/GPL-3.0> ;
   foaf:page <https://github.com/lassisg/mpthub> .
   
 
@@ -258,7 +258,7 @@
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "BioRssay" ;
   dc:description "An R Package for Analyses of Bioassays and Probit Graphs."@en ;
-  dct:license <AGPL-3.0> ;
+  dct:license <https://opensource.org/licenses/AGPL-3.0> ;
   foaf:page <https://github.com/milesilab/BioRssay> .
   
 
@@ -280,7 +280,7 @@ Razor detects signal peptide in the given sequence. If signal peptide is found, 
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "MitoTox" ;
   dc:description "A comprehensive mitochondrial toxicity database."@en ;
-  dct:license <CC-BY-NC-4.0> ;
+  dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
   foaf:page <http://www.mitotox.org> .
   
 
@@ -288,7 +288,7 @@ Razor detects signal peptide in the given sequence. If signal peptide is found, 
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "InferBERT" ;
   dc:description "A Transformer-Based Causal Inference Framework for Enhancing Pharmacovigilance."@en ;
-  dct:license <Apache-2.0> ;
+  dct:license <http://www.apache.org/licenses/LICENSE-2.0> ;
   foaf:page <https://github.com/XingqiaoWang/DeepCausalPV-master> .
   
 
@@ -296,7 +296,7 @@ Razor detects signal peptide in the given sequence. If signal peptide is found, 
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "GenUI" ;
   dc:description "Interactive and Extensible Open Source Software Platform for De Novo Molecular Generation."@en ;
-  dct:license <MIT> ;
+  dct:license <https://opensource.org/licenses/MIT> ;
   foaf:page <https://github.com/martin-sicho/genui> .
   
 
@@ -304,7 +304,7 @@ Razor detects signal peptide in the given sequence. If signal peptide is found, 
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "drda" ;
   dc:description "R package for fitting growth curves and performing dose-response data analysis."@en ;
-  dct:license <MIT> ;
+  dct:license <https://opensource.org/licenses/MIT> ;
   foaf:page <https://github.com/albertopessia/drda> .
   
 
@@ -312,7 +312,7 @@ Razor detects signal peptide in the given sequence. If signal peptide is found, 
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "deepFPlearn" ;
   dc:description "Deep Fingerprint Learn (DFPL) is an aI for predicting chemical-effect associations at the universe level. Link molecular structures of chemicals (in form of topological fingerprints) with multiple targets."@en ;
-  dct:license <GPL-3.0> ;
+  dct:license <https://opensource.org/licenses/GPL-3.0> ;
   foaf:page <https://github.com/yigbt/deepFPlearn> .
   
 
@@ -320,7 +320,7 @@ Razor detects signal peptide in the given sequence. If signal peptide is found, 
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "PPDB" ;
   dc:description "The PPDB is a comprehensive relational database of pesticide chemical identity, physicochemical, human health and ecotoxicological data."@en ;
-  dct:license <Not licensed> ;
+  dct:license <https://www.wikidata.org/entity/Q50423863> ;
   foaf:page <http://sitem.herts.ac.uk/aeru/ppdb/en/index.htm> .
   
 
@@ -336,7 +336,7 @@ Razor detects signal peptide in the given sequence. If signal peptide is found, 
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "genra-py" ;
   dc:description "genra-py is a Python package for GenRA. Genralised Read-Across (GenRA) is a computational toxicology tool to mimic a human expert’s manual reasoning based on similarity-weighted activity."@en ;
-  dct:license <MIT> ;
+  dct:license <https://opensource.org/licenses/MIT> ;
   foaf:page <http://github.com/i-shah/genra-py> .
   
 
@@ -352,7 +352,7 @@ Razor detects signal peptide in the given sequence. If signal peptide is found, 
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "CFM" ;
   dc:description "CFM is a database of experimentally validated protocols for chemical compound-based direct reprogramming and transdifferentiation."@en ;
-  dct:license <MIT> ;
+  dct:license <https://opensource.org/licenses/MIT> ;
   foaf:page <https://cfm.mipt.ru> .
   
 
@@ -398,7 +398,7 @@ Neurotoxicants are an important class of hazardous chemicals."@en ;
   dc:description "An R package for benchmark dose estimation.
 
 The benchmark dose (BMD) methodology is used to derive a hazard characterization measure for risk assessment in toxicology or ecotoxicology. The present paper's objective is to introduce the R extension package bmd, which facilitates the estimation of BMD and the benchmark dose lower limit for a wide range of dose-response models via the popular package drc. It allows using the most current statistical methods for BMD estimation, including model averaging. The package bmd can be used for BMD estimation for binomial, continuous, and count data in a simple set up or from complex hierarchical designs and is introduced using four examples. While there are other stand-alone software solutions available to estimate BMDs, the package bmd facilitates easy estimation within the established and flexible statistical environment R."@en ;
-  dct:license <GPL-3.0> ;
+  dct:license <https://opensource.org/licenses/GPL-3.0> ;
   foaf:page <https://shiny-efsa.openanalytics.eu/app/bmd> .
   
 
@@ -471,7 +471,7 @@ A statistical analysis package for use exploring the relationship between toxici
   dc:description "Time-dose integrated modelling of toxicogenomics data.
 
 TinderMIX is a new computational framework for dose- and time- dependent gene expression analysis which aims to identify groups of genes that show a dynamic dose-response behaviour."@en ;
-  dct:license <GPL-3.0> ;
+  dct:license <https://opensource.org/licenses/GPL-3.0> ;
   foaf:page <https://github.com/grecolab/TinderMIX> .
   
 
@@ -549,7 +549,7 @@ The Pred-Skin application is based on externally predictive QSAR models of skin 
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "Morpheus" ;
   dc:description "Morpheus is an open-source modeling and simulation framework for multi-scale and multicellular biological systems. The GUI allows to construct and simulate models from gene regulation, metabolism and signaling to tissue morphogenesis and their multi-scale feedbacks without the need to program. Morpheus is based on declarative modeling in biological terms and mathematical expressions and internally uses the domain-specific language MorpheusML, allowing for rapid model prototyping without extra code-compilation. Morpheus supports cell-based model formalisms, ODEs, PDEs, rule-based models, SBML models etc. (all freely coupled) as well as image-based modeling. It renders results in customizable 2D and 3D images or movies and offers analysis tools to extract features right during simulation. The plugin architecture makes it extensible. Binary installers are available for all major OS from the Morpheus homepage together with online courses, a public model repository and many more resources."@en ;
-  dct:license <BSD-3-Clause> ;
+  dct:license <https://opensource.org/license/bsd-3-clause/> ;
   foaf:page <https://morpheus.gitlab.io> .
   
 
@@ -575,7 +575,7 @@ Phexpo is an R package for enrichment analysis of phenotypes (from the Human Phe
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "TeachOpenCADD-KNIME" ;
   dc:description "A Teaching Platform for Computer-Aided Drug Design Using KNIME Workflows."@en ;
-  dct:license <CC-BY-4.0> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   foaf:page <https://hub.knime.com/volkamerlab/space/TeachOpenCADD> .
   
 
@@ -615,7 +615,7 @@ Phexpo is an R package for enrichment analysis of phenotypes (from the Human Phe
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "MechSpy" ;
   dc:description "Applying knowledge-driven mechanistic inference to toxicogenomics | Mechanistic inference of toxicity from gene expression time series and knowledge graphs | Mechanistic inference for toxicology | This repository provide the code for the publication "Applying knowledge-driven mechanistic inference to toxicogenomics" (DOI: xxxxxxxxxxxx) and contains the collection of scripts to reproduce the results obtained. Besides the code, this repository provides: | $ git clone git@github.com:ignaciot/MechSpy.git | You can add new mechanisms of your own to MechSpy by editing mechanisms.py. A mock, commented-out "M12" mechanism was added to illustrate where would new mechanisms need to go"@en ;
-  dct:license <MIT> ;
+  dct:license <https://opensource.org/licenses/MIT> ;
   foaf:page <https://github.com/ignaciot/MechSpy> .
   
 
@@ -645,7 +645,7 @@ Please kindly cite the paper if you use the code, datasets or any results in thi
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "DeepSide" ;
   dc:description "A Deep Learning Framework for Drug Side Effect Prediction. Drug failures due to unforeseen adverse effects at clinical trials pose health risks for the participants and lead to substantial financial losses"@en ;
-  dct:license <MIT> ;
+  dct:license <https://opensource.org/licenses/MIT> ;
   foaf:page <http://github.com/OnurUner/DeepSide> .
   
 
@@ -655,7 +655,7 @@ Please kindly cite the paper if you use the code, datasets or any results in thi
   dc:description "A Deep Learning Approach for Virtual Screening of Big Chemical Datasets.
 
 Drug discovery is an extensive and rigorous process that requires up to 2 billion dollars of investments and more than ten years of research and development to bring a molecule “from bench to a bedside”. While virtual screening can significantly enhance drug discovery workflow, it ultimately lags the current rate of expansion of chemical databases that already incorporate billions of purchasable compounds. This surge of available small molecules presents great opportunities for drug discovery but also demands for faster virtual screening methods and protocols. In order to address this challenge, we herein introduce Deep Docking ( D 2 ) - a novel deep learning-based approach which is suited for docking billions of molecular structures."@en ;
-  dct:license <MIT> ;
+  dct:license <https://opensource.org/licenses/MIT> ;
   foaf:page <https://github.com/vibudh2209/D2> .
   
 
@@ -663,7 +663,7 @@ Drug discovery is an extensive and rigorous process that requires up to 2 billio
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "KDDANet" ;
   dc:description "Novel computational framework for systematic uncovering hidden gene interactions underlying known drug-disease associations | A computational framework for uncovering hidden gene interactions underlying Known Drug-Disease Associations (KDDAs) | To use KDDANet, please refer to the instructions in manual.txt in this subdirectory | This software identifies the hidden gene interactions and modules underlying KDDAs through implementing minimum cost optimization and graph clustering on a unified flow network model"@en ;
-  dct:license <GPL-3.0> ;
+  dct:license <https://opensource.org/licenses/GPL-3.0> ;
   foaf:page <https://github.com/huayu1111/KDDANet/> .
   
 
@@ -719,7 +719,7 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "NCATS BioPlanet" ;
   dc:description "Integrated Platform for Exploring the Universe of Cellular Signaling Pathways for Toxicology, Systems Biology, and Chemical Genomics."@en ;
-  dct:license <Unlicense> ;
+  dct:license <https://spdx.org/licenses/Unlicense> ;
   foaf:page <http://tripod.nih.gov/bioplanet/> .
   
 
@@ -727,7 +727,7 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "SiliS-PTOXRA" ;
   dc:description "SiliS-PTOXRA (DRY-in Silico Screening & Prediction of Toxic Hazard and Risk Assessment) for the prediction of toxicological endpoints."@en ;
-  dct:license <Unlicense> ;
+  dct:license <https://spdx.org/licenses/Unlicense> ;
   foaf:page <http://tomocomd.com/apps/ptoxra> .
   
 
@@ -735,7 +735,7 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "SLTChemDB" ;
   dc:description "Database of Chemical Constitutents of Smokeless Tobacco Products."@en ;
-  dct:license <Unlicense> ;
+  dct:license <https://spdx.org/licenses/Unlicense> ;
   foaf:page <http://bic.icmr.org.in/sltchem> .
   
 
@@ -751,7 +751,7 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "ZebraSTM" ;
   dc:description "Application for quantification of spontaneous tail movement in zebrafish embryos."@en ;
-  dct:license <CC-BY-4.0> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   foaf:page <http://lcc.ens.uabc.mx/~zebrastm/> .
   
 
@@ -775,7 +775,7 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "EPIG-Seq" ;
   dc:description "Extracting patterns and identifying co-expressed genes from RNA-Seq data."@en ;
-  dct:license <GPL-3.0> ;
+  dct:license <https://opensource.org/licenses/GPL-3.0> ;
   foaf:page <https://sourceforge.net/projects/epig-seq/?source=navbar> .
   
 
