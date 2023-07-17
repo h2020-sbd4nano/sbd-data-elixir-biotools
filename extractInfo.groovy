@@ -10,6 +10,21 @@ import groovy.json.JsonSlurper
 bioclipse = new net.bioclipse.managers.BioclipseManager(".");
 rdf = new net.bioclipse.managers.RDFManager(".");
 
+licenseURImap = new HashMap()
+licenseURImap.put("AGPL-3.0", "https://opensource.org/licenses/AGPL-3.0")
+licenseURImap.put("Apache-2.0", "http://www.apache.org/licenses/LICENSE-2.0")
+licenseURImap.put("BSD-2-Clause", "https://opensource.org/license/bsd-2-clause/")
+licenseURImap.put("BSD-3-Clause", "https://opensource.org/license/bsd-3-clause/")
+licenseURImap.put("CC-BY-3.0", "http://creativecommons.org/licenses/by/3.0/")
+licenseURImap.put("CC-BY-4.0", "https://creativecommons.org/licenses/by/4.0/")
+licenseURImap.put("CC-BY-NC-4.0", "https://creativecommons.org/licenses/by-nc/4.0/")
+licenseURImap.put("CECILL-2.1", "https://opensource.org/licenses/CECILL-2.1")
+licenseURImap.put("GPL-3.0", "https://opensource.org/licenses/GPL-3.0")
+licenseURImap.put("MIT", "https://opensource.org/licenses/MIT")
+licenseURImap.put("Not licensed", "https://www.wikidata.org/entity/Q50423863")
+licenseURImap.put("Other", "http://example.com/unknown")
+licenseURImap.put("Unlicense", "https://spdx.org/licenses/Unlicense")
+
 def nextPage(callURL, page) {
   fullCall = (page != null) ? callURL + page : callURL
   jsonContent = bioclipse.download(fullCall, "application/json")
@@ -21,7 +36,7 @@ def nextPage(callURL, page) {
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "${tool.name}" ;
   dc:description "${tool.description}"@en ;
-  dct:license <${(tool.license != null) ? tool.license : "http://example.com/unknown"}> ;
+  dct:license <${(tool.license != null) ? licenseURImap.get(tool.license) : "http://example.com/unknown"}> ;
   foaf:page <${tool.homepage}> .
   """
   }
