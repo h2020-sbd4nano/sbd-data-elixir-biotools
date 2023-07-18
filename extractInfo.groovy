@@ -35,7 +35,7 @@ def nextPage(callURL, page) {
 <https://bio.tools/${tool.biotoolsCURIE}> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "${tool.name}" ;
-  dc:description """${tool.description}"""@en ;
+  dc:description \"\"\"${tool.description}\"\"\"@en ;
   dct:license <${(tool.license != null) ? licenseURImap.get(tool.license) : "http://example.com/unknown"}> ;
   foaf:page <${tool.homepage}> .
   """
