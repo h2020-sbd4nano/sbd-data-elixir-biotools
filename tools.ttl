@@ -14,6 +14,14 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:seqapass> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "SeqAPASS" ;
+  dc:description """A web-based tool for addressing the challenges of cross-species extrapolation of chemical toxicity."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://seqapass.epa.gov/seqapass> .
+  
+
 <https://bio.tools/biotools:bridgedb> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "BridgeDb" ;
