@@ -14,6 +14,14 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:toxicr> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "ToxicR" ;
+  dc:description """ToxicR is an R package that utilizes the core functionality of the US EPA’s Benchmark Dose Software and the NTP’s BMDexpress. It was developed in unison with researchers from the National Institute of Environmental Health. ToxicR is fully interactive and can be used to create custom analysis pipelines within the R programming environment."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://www.ncbi.nlm.nih.gov/pubmed/?term=36909352> .
+  
+
 <https://bio.tools/biotools:seqapass> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "SeqAPASS" ;
