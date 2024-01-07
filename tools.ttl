@@ -14,6 +14,22 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:ctd_tetramers> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "CTD Tetramers" ;
+  dc:description """Tool that computationally links curated chemicals, genes, phenotypes, and diseases to inform molecular mechanisms for environmental health."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://ctdbase.org/query.go?type=tetramer> .
+  
+
+<https://bio.tools/biotools:reprotox-kg> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "ReproTox-KG" ;
+  dc:description """Toxicology knowledge graph for structural birth defects."""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  foaf:page <https://maayanlab.cloud/reprotox-kg> .
+  
+
 <https://bio.tools/biotools:toxicr> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "ToxicR" ;
