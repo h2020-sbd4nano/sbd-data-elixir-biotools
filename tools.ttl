@@ -14,6 +14,14 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:tox21enricher> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "Tox21Enricher" ;
+  dc:description """Shiny application for toxicity functional annotation analysis."""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  foaf:page <http://hurlab.med.und.edu/Tox21Enricher/> .
+  
+
 <https://bio.tools/biotools:ctd_tetramers> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "CTD Tetramers" ;
