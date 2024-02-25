@@ -14,6 +14,14 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:micotoxilico> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "MicotoXilico" ;
+  dc:description """Interactive database to predict mutagenicity, genotoxicity, and carcinogenicity of mycotoxins."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://chemopredictionsuite.com/MicotoXilico> .
+  
+
 <https://bio.tools/biotools:profhex> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "ProfhEX" ;
