@@ -1,3 +1,5 @@
+[![Extract Toxicology Tools from bio.tools](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools/actions/workflows/extract.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools/actions/workflows/extract.yml)
+
 # Landscape data from ELIXIR bio.tools
 
 ELIXIR [bio.tools](bio.tools) is a service indexing and making searchable of (computational) services.
