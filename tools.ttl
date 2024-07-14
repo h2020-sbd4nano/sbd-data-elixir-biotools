@@ -779,14 +779,6 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   foaf:page <http://toxsign.genouest.org> .
   
 
-<https://bio.tools/biotools:SLTChemDB> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "SLTChemDB" ;
-  dc:description """Database of Chemical Constitutents of Smokeless Tobacco Products."""@en ;
-  dct:license <https://spdx.org/licenses/Unlicense> ;
-  foaf:page <http://bic.icmr.org.in/sltchem> .
-  
-
 <https://bio.tools/biotools:NCATS_BioPlanet> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "NCATS BioPlanet" ;
@@ -801,6 +793,14 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   dc:description """SiliS-PTOXRA (DRY-in Silico Screening & Prediction of Toxic Hazard and Risk Assessment) for the prediction of toxicological endpoints."""@en ;
   dct:license <https://spdx.org/licenses/Unlicense> ;
   foaf:page <http://tomocomd.com/apps/ptoxra> .
+  
+
+<https://bio.tools/biotools:SLTChemDB> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "SLTChemDB" ;
+  dc:description """Database of Chemical Constitutents of Smokeless Tobacco Products."""@en ;
+  dct:license <https://spdx.org/licenses/Unlicense> ;
+  foaf:page <http://bic.icmr.org.in/sltchem> .
   
 
 <https://bio.tools/biotools:HighResNPS> a sbd:Resource ;
