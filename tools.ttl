@@ -14,6 +14,14 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:toxinpred2> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "ToxinPred2" ;
+  dc:description """A webserver for designing and predicting toxic and non-toxic proteins."""@en ;
+  dct:license <https://opensource.org/licenses/GPL-3.0> ;
+  foaf:page <https://webs.iiitd.edu.in/raghava/toxinpred2/> .
+  
+
 <https://bio.tools/biotools:nps_ms> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "NPS-MS" ;
@@ -212,14 +220,6 @@
   dc:description """A web-based toolbox for predicting mixture toxicity of chemical substances in chemical products."""@en ;
   dct:license <http://example.com/unknown> ;
   foaf:page <https://www.mratoolbox.org> .
-  
-
-<https://bio.tools/biotools:toxinpred2> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "ToxinPred2" ;
-  dc:description """A webserver for designing and predicting toxic and non-toxic proteins."""@en ;
-  dct:license <https://opensource.org/licenses/GPL-3.0> ;
-  foaf:page <https://webs.iiitd.edu.in/raghava/toxinpred2/> .
   
 
 <https://bio.tools/biotools:cas_common_chemistry> a sbd:Resource ;
