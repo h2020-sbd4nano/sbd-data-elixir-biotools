@@ -779,6 +779,14 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   foaf:page <http://toxsign.genouest.org> .
   
 
+<https://bio.tools/biotools:SiliS-PTOXRA> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "SiliS-PTOXRA" ;
+  dc:description """SiliS-PTOXRA (DRY-in Silico Screening & Prediction of Toxic Hazard and Risk Assessment) for the prediction of toxicological endpoints."""@en ;
+  dct:license <https://spdx.org/licenses/Unlicense> ;
+  foaf:page <http://tomocomd.com/apps/ptoxra> .
+  
+
 <https://bio.tools/biotools:SLTChemDB> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "SLTChemDB" ;
@@ -793,14 +801,6 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   dc:description """Integrated Platform for Exploring the Universe of Cellular Signaling Pathways for Toxicology, Systems Biology, and Chemical Genomics."""@en ;
   dct:license <https://spdx.org/licenses/Unlicense> ;
   foaf:page <http://tripod.nih.gov/bioplanet/> .
-  
-
-<https://bio.tools/biotools:SiliS-PTOXRA> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "SiliS-PTOXRA" ;
-  dc:description """SiliS-PTOXRA (DRY-in Silico Screening & Prediction of Toxic Hazard and Risk Assessment) for the prediction of toxicological endpoints."""@en ;
-  dct:license <https://spdx.org/licenses/Unlicense> ;
-  foaf:page <http://tomocomd.com/apps/ptoxra> .
   
 
 <https://bio.tools/biotools:HighResNPS> a sbd:Resource ;
