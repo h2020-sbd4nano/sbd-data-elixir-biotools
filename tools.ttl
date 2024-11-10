@@ -14,6 +14,14 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:bridgedb> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "BridgeDb Java" ;
+  dc:description """BridgeDb is a framework to map identifiers between various databases.  It includes a Java library that provides an API to work with identifier-identifier mapping databases and resources."""@en ;
+  dct:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+  foaf:page <http://bridgedb.github.io/> .
+  
+
 <https://bio.tools/biotools:toxinpred2> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "ToxinPred2" ;
@@ -84,14 +92,6 @@
   dc:description """A web-based tool for addressing the challenges of cross-species extrapolation of chemical toxicity."""@en ;
   dct:license <http://example.com/unknown> ;
   foaf:page <https://seqapass.epa.gov/seqapass> .
-  
-
-<https://bio.tools/biotools:bridgedb> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "BridgeDb" ;
-  dc:description """BridgeDb is a framework to map identifiers between various databases.  It includes a Java library that provides an API to work with identifier-identifier mapping databases and resources."""@en ;
-  dct:license <http://www.apache.org/licenses/LICENSE-2.0> ;
-  foaf:page <http://bridgedb.github.io/> .
   
 
 <https://bio.tools/biotools:norman-sle> a sbd:Resource ;
