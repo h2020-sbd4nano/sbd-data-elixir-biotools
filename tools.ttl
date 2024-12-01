@@ -14,68 +14,202 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:dbeth> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "DBETH" ;
+  dc:description """Database of sequences, structures, interaction networks and analytical results for 229 exotoxins, from 26 different human pathogenic bacterial genus. All toxins are classified into 24 different Toxin classes. The aim is to provide a comprehensive database for human pathogenic bacterial exotoxins."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://www.hpppi.iicb.res.in/btox/> .
+  
+
+<https://bio.tools/biotools:limtox> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "LimTox" ;
+  dc:description """Text mining for toxicology."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://limtox.bioinfo.cnio.es/> .
+  
+
+<https://bio.tools/biotools:t3db> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "T3DB" ;
+  dc:description """Unique bioinformatics resource that compiles comprehensive information about common or ubiquitous toxins and their toxin-targets. Each record (ToxCard) contains over 80 data fields providing detailed information on chemical properties and descriptors, toxicity values, protein and gene sequences (for both targets and toxins), molecular and cellular interaction data, toxicological data, mechanistic information and references."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://www.t3db.org> .
+  
+
+<https://bio.tools/biotools:toxsign> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "TOXsIgN" ;
+  dc:description """The TOXicogenomic sIgNature (TOXsIgN) is a cross-species resource that supports online submission, storage, and retrieval of TOXicogenomic sIgNatures. TOXsIgN aims at complementing existing resources by acting as a distribution hub for the community. One of its unique features is its ability to archive heterogeneous data. TOXsIgN thus allows users to upload lists of genes positively (overexpressed for transcriptomic assays) affected and negatively (underexpressed) affected from distinct –omics experiments (e.g., transcriptomics, proteomics, or epigenomics). It also provides users with a working environment containing a powerful search engine as well as bioinformatics/biostatistics modules that enable cross-species and cross-technology signature comparisons or enrichment analyses. TOXsIgN is thus intended to serve as a warehouse for toxicogenomics and predictive toxicology tools simultaneously based on and able to analyze the overall set of signatures deposited by the community."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://toxsign.genouest.org> .
+  
+
+<https://bio.tools/biotools:masi> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "MASI" ;
+  dc:description """Microbiota-active substance interactions database.
+Active Substance Interaction database.
+Try Examples: Bifidobacterium adolescentis, Enterococcus faecalis, Acarbose, Caffeic acid, Oxaprozin, Obesity, Colorectal cancer.
+
+A centralized and standardized database to catalog Microbiota-Active Substance Interaction (MASI) will be very useful for related research fields, including microbiota-related precision medicine, pharmaceutical research, food and nutrition research, clinical pharmacy, health management studies.
+
+Accumulating evidence about the interaction between human microbiota and active substances, especially for those therapeutically-relevant substances such as clinical used drugs and traditional medicines/herbs, is deepenning our understanding in the role of "our second genome" in human health and diseases, and opens new avenue for managing/treating human healthy problems/diseases by manipulating microbiota-human interactions."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://www.aiddlab.com/MASI> .
+  
+
+<https://bio.tools/biotools:fastbmd> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "FastBMD" ;
+  dc:description """FastBMD is an online tool for rapid benchmark dose-response analysis of transcriptomics data. FastBMD is a computationally efficient implementation of the National Toxicology Program Approach to Genomic Dose-Response Modeling. Key features include a simplified workflow, ability to download results at each step, and interactive exploration of pathway-level BMDs. In addition to model organisms, FastBMD is designed to support non-model organisms by enabling an annotation-free pipeline that includes feature sensitivity-based point-of-departure analysis. The final part of the analysis is designed to allow users to interactively explore BMDs at different levels of organization:."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://www.fastbmd.ca> .
+  
+
+<https://bio.tools/biotools:genra-py> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "genra-py" ;
+  dc:description """genra-py is a Python package for GenRA. Genralised Read-Across (GenRA) is a computational toxicology tool to mimic a human expert’s manual reasoning based on similarity-weighted activity."""@en ;
+  dct:license <https://opensource.org/licenses/MIT> ;
+  foaf:page <http://github.com/i-shah/genra-py> .
+  
+
+<https://bio.tools/biotools:aop-wiki_rdf> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "AOP-Wiki RDF" ;
+  dc:description """SPARQL interface for AOP-Wiki data"""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://aopwiki.rdf.bigcat-bioinformatics.org/> .
+  
+
+<https://bio.tools/biotools:kc-hits> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "kc-hits" ;
+  dc:description """A tool to aid in the evaluation and classification of chemical carcinogens."""@en ;
+  dct:license <https://opensource.org/licenses/MIT> ;
+  foaf:page <https://gitlab.com/i1650/kc-hits.git> .
+  
+
+<https://bio.tools/biotools:rtivity> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "Rtivity" ;
+  dc:description """Automated analysis of activity, sleep, and rhythmic behaviour in various animal species with the Rtivity software."""@en ;
+  dct:license <https://www.wikidata.org/entity/Q50423863> ;
+  foaf:page <https://ruisilva.shinyapps.io/rtivity/> .
+  
+
+<https://bio.tools/biotools:nextcast> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "Nextcast" ;
+  dc:description """A software suite to analyse and model toxicogenomics data."""@en ;
+  dct:license <https://www.wikidata.org/entity/Q50423863> ;
+  foaf:page <https://github.com/fhaive/nextcast> .
+  
+
+<https://bio.tools/biotools:cas_common_chemistry> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "CAS Common Chemistry" ;
+  dc:description """CAS Common Chemistry is an open web resource that provides access to reliable chemical substance information for the scientific community."""@en ;
+  dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+  foaf:page <https://commonchemistry.cas.org/> .
+  
+
+<https://bio.tools/biotools:addictedchem> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "AddictedChem" ;
+  dc:description """AddictedChem is a base of controlled substances and a platform for predicting NPS."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://design.rxnfinder.org/addictedchem/prediction/> .
+  
+
+<https://bio.tools/biotools:nanomixhamster> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "NanoMixHamster" ;
+  dc:description """A web-based tool for predicting cytotoxicity of TiO2-based multicomponent nanomaterials toward Chinese hamster ovary (CHO-K1) cells."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://nanomixhamster.cloud.nanosolveit.eu/> .
+  
+
+<https://bio.tools/biotools:detective-qsar> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "Detective-QSAR" ;
+  dc:description """Detective-QSAR is a web applications to evaluate the known/unknown spectra aquired by MS"""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  foaf:page <http://www.mixture-platform.net/Detective_QSAR_Med_Open/> .
+  
+
+<https://bio.tools/biotools:bahama> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "BAHAMA" ;
+  dc:description """Bayesian Hierarchical Analyses of MedDRA-coded Adverse Events (BAHAMA): A Bayesian hierarchical model for the detection of MedDRA coded adverse events in RCTs."""@en ;
+  dct:license <https://www.wikidata.org/entity/Q50423863> ;
+  foaf:page <https://github.com/Alma-Revers/BAHAMA> .
+  
+
+<https://bio.tools/biotools:toxstar> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "ToxSTAR" ;
+  dc:description """ToxSTAR is a platform to predict human toxicity caused by drugs and chemicals through integration of biotechnology (BT) and information technology (IT)."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://toxstar.kitox.re.kr/> .
+  
+
+<https://bio.tools/biotools:sapredictor> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "SApredictor" ;
+  dc:description """An Expert System for Screening Chemicals Against Structural Alerts."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://www.sapredictor.cn> .
+  
+
+<https://bio.tools/biotools:toxric> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "TOXRIC" ;
+  dc:description """A comprehensive database of toxicological data and benchmarks."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://toxric.bioinforai.tech/> .
+  
+
+<https://bio.tools/biotools:diadpredictor> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "DIADpredictor" ;
+  dc:description """DIADpredictor: in silico prediction for drug-induced autoimmune diseases (DIAD) with machine learning."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <http://diad.sapredictor.cn/> .
+  
+
+<https://bio.tools/biotools:pcp-lod> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "PCP-LOD" ;
+  dc:description """Principal Component Pursuit for Pattern Identification in Environmental Mixtures."""@en ;
+  dct:license <https://opensource.org/license/bsd-2-clause/> ;
+  foaf:page <http://github.com/lizzyagibson/PCP-LOD> .
+  
+
+<https://bio.tools/biotools:ctdquerier> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "CTDquerier" ;
+  dc:description """Comparative Toxicogenomics Database data extraction, visualization and enrichment of environmental and toxicological studies."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://github.com/isglobal-brge/CTDquerier> .
+  
+
 <https://bio.tools/biotools:bridgedb> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "BridgeDb Java" ;
+  rdfs:label "BridgeDb" ;
   dc:description """BridgeDb is a framework to map identifiers between various databases.  It includes a Java library that provides an API to work with identifier-identifier mapping databases and resources."""@en ;
   dct:license <http://www.apache.org/licenses/LICENSE-2.0> ;
   foaf:page <http://bridgedb.github.io/> .
   
 
-<https://bio.tools/biotools:toxinpred2> a sbd:Resource ;
+<https://bio.tools/biotools:seqapass> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "ToxinPred2" ;
-  dc:description """A webserver for designing and predicting toxic and non-toxic proteins."""@en ;
-  dct:license <https://opensource.org/licenses/GPL-3.0> ;
-  foaf:page <https://webs.iiitd.edu.in/raghava/toxinpred2/> .
-  
-
-<https://bio.tools/biotools:nps_ms> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "NPS-MS" ;
-  dc:description """Deep learning-enabled MS/MS spectrum prediction facilitates automated identification of novel psychoactive substances."""@en ;
+  rdfs:label "SeqAPASS" ;
+  dc:description """A web-based tool for addressing the challenges of cross-species extrapolation of chemical toxicity."""@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <https://nps-ms.ca/> .
-  
-
-<https://bio.tools/biotools:micotoxilico> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "MicotoXilico" ;
-  dc:description """Interactive database to predict mutagenicity, genotoxicity, and carcinogenicity of mycotoxins."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <https://chemopredictionsuite.com/MicotoXilico> .
-  
-
-<https://bio.tools/biotools:profhex> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "ProfhEX" ;
-  dc:description """AI-based platform for small molecules liability profiling."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <https://profhex.exscalate.eu/> .
-  
-
-<https://bio.tools/biotools:tox21enricher> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "Tox21Enricher" ;
-  dc:description """Shiny application for toxicity functional annotation analysis."""@en ;
-  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  foaf:page <http://hurlab.med.und.edu/Tox21Enricher/> .
-  
-
-<https://bio.tools/biotools:ctd_tetramers> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "CTD Tetramers" ;
-  dc:description """Tool that computationally links curated chemicals, genes, phenotypes, and diseases to inform molecular mechanisms for environmental health."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://ctdbase.org/query.go?type=tetramer> .
-  
-
-<https://bio.tools/biotools:reprotox-kg> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "ReproTox-KG" ;
-  dc:description """Toxicology knowledge graph for structural birth defects."""@en ;
-  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  foaf:page <https://maayanlab.cloud/reprotox-kg> .
+  foaf:page <https://seqapass.epa.gov/seqapass> .
   
 
 <https://bio.tools/biotools:toxicr> a sbd:Resource ;
@@ -86,12 +220,60 @@
   foaf:page <https://www.ncbi.nlm.nih.gov/pubmed/?term=36909352> .
   
 
-<https://bio.tools/biotools:seqapass> a sbd:Resource ;
+<https://bio.tools/biotools:reprotox-kg> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "SeqAPASS" ;
-  dc:description """A web-based tool for addressing the challenges of cross-species extrapolation of chemical toxicity."""@en ;
+  rdfs:label "ReproTox-KG" ;
+  dc:description """Toxicology knowledge graph for structural birth defects."""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  foaf:page <https://maayanlab.cloud/reprotox-kg> .
+  
+
+<https://bio.tools/biotools:ctd_tetramers> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "CTD Tetramers" ;
+  dc:description """Tool that computationally links curated chemicals, genes, phenotypes, and diseases to inform molecular mechanisms for environmental health."""@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <https://seqapass.epa.gov/seqapass> .
+  foaf:page <http://ctdbase.org/query.go?type=tetramer> .
+  
+
+<https://bio.tools/biotools:tox21enricher> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "Tox21Enricher" ;
+  dc:description """Shiny application for toxicity functional annotation analysis."""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  foaf:page <http://hurlab.med.und.edu/Tox21Enricher/> .
+  
+
+<https://bio.tools/biotools:profhex> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "ProfhEX" ;
+  dc:description """AI-based platform for small molecules liability profiling."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://profhex.exscalate.eu/> .
+  
+
+<https://bio.tools/biotools:micotoxilico> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "MicotoXilico" ;
+  dc:description """Interactive database to predict mutagenicity, genotoxicity, and carcinogenicity of mycotoxins."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://chemopredictionsuite.com/MicotoXilico> .
+  
+
+<https://bio.tools/biotools:nps_ms> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "NPS-MS" ;
+  dc:description """Deep learning-enabled MS/MS spectrum prediction facilitates automated identification of novel psychoactive substances."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://nps-ms.ca/> .
+  
+
+<https://bio.tools/biotools:toxinpred2> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "ToxinPred2" ;
+  dc:description """A webserver for designing and predicting toxic and non-toxic proteins."""@en ;
+  dct:license <https://opensource.org/licenses/GPL-3.0> ;
+  foaf:page <https://webs.iiitd.edu.in/raghava/toxinpred2/> .
   
 
 <https://bio.tools/biotools:norman-sle> a sbd:Resource ;
@@ -118,38 +300,6 @@
   foaf:page <https://ftp.ncbi.nlm.nih.gov/pub/lu/NLM-Chem-BC7-corpus/> .
   
 
-<https://bio.tools/biotools:ctdquerier> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "CTDquerier" ;
-  dc:description """Comparative Toxicogenomics Database data extraction, visualization and enrichment of environmental and toxicological studies."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <https://github.com/isglobal-brge/CTDquerier> .
-  
-
-<https://bio.tools/biotools:pcp-lod> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "PCP-LOD" ;
-  dc:description """Principal Component Pursuit for Pattern Identification in Environmental Mixtures."""@en ;
-  dct:license <https://opensource.org/license/bsd-2-clause/> ;
-  foaf:page <http://github.com/lizzyagibson/PCP-LOD> .
-  
-
-<https://bio.tools/biotools:diadpredictor> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "DIADpredictor" ;
-  dc:description """DIADpredictor: in silico prediction for drug-induced autoimmune diseases (DIAD) with machine learning."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://diad.sapredictor.cn/> .
-  
-
-<https://bio.tools/biotools:toxric> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "TOXRIC" ;
-  dc:description """A comprehensive database of toxicological data and benchmarks."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <https://toxric.bioinforai.tech/> .
-  
-
 <https://bio.tools/biotools:lotus-db> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "LOTUS" ;
@@ -166,92 +316,12 @@
   foaf:page <https://pfastoxdatabase.org> .
   
 
-<https://bio.tools/biotools:sapredictor> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "SApredictor" ;
-  dc:description """An Expert System for Screening Chemicals Against Structural Alerts."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://www.sapredictor.cn> .
-  
-
-<https://bio.tools/biotools:toxstar> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "ToxSTAR" ;
-  dc:description """ToxSTAR is a platform to predict human toxicity caused by drugs and chemicals through integration of biotechnology (BT) and information technology (IT)."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <https://toxstar.kitox.re.kr/> .
-  
-
-<https://bio.tools/biotools:bahama> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "BAHAMA" ;
-  dc:description """Bayesian Hierarchical Analyses of MedDRA-coded Adverse Events (BAHAMA): A Bayesian hierarchical model for the detection of MedDRA coded adverse events in RCTs."""@en ;
-  dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  foaf:page <https://github.com/Alma-Revers/BAHAMA> .
-  
-
-<https://bio.tools/biotools:detective-qsar> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "Detective-QSAR" ;
-  dc:description """Detective-QSAR is a web applications to evaluate the known/unknown spectra aquired by MS"""@en ;
-  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  foaf:page <http://www.mixture-platform.net/Detective_QSAR_Med_Open/> .
-  
-
-<https://bio.tools/biotools:nanomixhamster> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "NanoMixHamster" ;
-  dc:description """A web-based tool for predicting cytotoxicity of TiO2-based multicomponent nanomaterials toward Chinese hamster ovary (CHO-K1) cells."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <https://nanomixhamster.cloud.nanosolveit.eu/> .
-  
-
-<https://bio.tools/biotools:addictedchem> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "AddictedChem" ;
-  dc:description """AddictedChem is a base of controlled substances and a platform for predicting NPS."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://design.rxnfinder.org/addictedchem/prediction/> .
-  
-
 <https://bio.tools/biotools:mra_toolbox> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "MRA Toolbox" ;
   dc:description """A web-based toolbox for predicting mixture toxicity of chemical substances in chemical products."""@en ;
   dct:license <http://example.com/unknown> ;
   foaf:page <https://www.mratoolbox.org> .
-  
-
-<https://bio.tools/biotools:cas_common_chemistry> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "CAS Common Chemistry" ;
-  dc:description """CAS Common Chemistry is an open web resource that provides access to reliable chemical substance information for the scientific community."""@en ;
-  dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-  foaf:page <https://commonchemistry.cas.org/> .
-  
-
-<https://bio.tools/biotools:nextcast> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "Nextcast" ;
-  dc:description """A software suite to analyse and model toxicogenomics data."""@en ;
-  dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  foaf:page <https://github.com/fhaive/nextcast> .
-  
-
-<https://bio.tools/biotools:rtivity> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "Rtivity" ;
-  dc:description """Automated analysis of activity, sleep, and rhythmic behaviour in various animal species with the Rtivity software."""@en ;
-  dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  foaf:page <https://ruisilva.shinyapps.io/rtivity/> .
-  
-
-<https://bio.tools/biotools:kc-hits> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "kc-hits" ;
-  dc:description """A tool to aid in the evaluation and classification of chemical carcinogens."""@en ;
-  dct:license <https://opensource.org/licenses/MIT> ;
-  foaf:page <https://gitlab.com/i1650/kc-hits.git> .
   
 
 <https://bio.tools/biotools:tox-gan> a sbd:Resource ;
@@ -276,14 +346,6 @@
   dc:description """Chemical toxicity prediction based on semi-supervised learning and graph convolutional neural network."""@en ;
   dct:license <http://example.com/unknown> ;
   foaf:page <https://app.cbbio.online/ssl-gcn/home> .
-  
-
-<https://bio.tools/biotools:aop-wiki_rdf> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "AOP-Wiki RDF" ;
-  dc:description """SPARQL interface for AOP-Wiki data"""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <https://aopwiki.rdf.bigcat-bioinformatics.org/> .
   
 
 <https://bio.tools/biotools:cebs> a sbd:Resource ;
@@ -396,14 +458,6 @@ Razor detects signal peptide in the given sequence. If signal peptide is found, 
   foaf:page <https://mosaic.univ-lyon1.fr/bioacc> .
   
 
-<https://bio.tools/biotools:genra-py> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "genra-py" ;
-  dc:description """genra-py is a Python package for GenRA. Genralised Read-Across (GenRA) is a computational toxicology tool to mimic a human expert’s manual reasoning based on similarity-weighted activity."""@en ;
-  dct:license <https://opensource.org/licenses/MIT> ;
-  foaf:page <http://github.com/i-shah/genra-py> .
-  
-
 <https://bio.tools/biotools:cgatcpred> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "CGATCPred" ;
@@ -494,14 +548,6 @@ Nuclear receptors (NRs) are key regulators of human health and constitute a rele
   foaf:page <https://livertox.univie.ac.at> .
   
 
-<https://bio.tools/biotools:fastbmd> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "FastBMD" ;
-  dc:description """FastBMD is an online tool for rapid benchmark dose-response analysis of transcriptomics data. FastBMD is a computationally efficient implementation of the National Toxicology Program Approach to Genomic Dose-Response Modeling. Key features include a simplified workflow, ability to download results at each step, and interactive exploration of pathway-level BMDs. In addition to model organisms, FastBMD is designed to support non-model organisms by enabling an annotation-free pipeline that includes feature sensitivity-based point-of-departure analysis. The final part of the analysis is designed to allow users to interactively explore BMDs at different levels of organization:."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://www.fastbmd.ca> .
-  
-
 <https://bio.tools/biotools:exhumid> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "ExHuMId" ;
@@ -547,20 +593,6 @@ TinderMIX is a new computational framework for dose- and time- dependent gene ex
 The STopTox app is a fast, reliable, and user-friendly tool available as an alternative method for assessing the potential of chemicals to cause acute toxicity."""@en ;
   dct:license <http://example.com/unknown> ;
   foaf:page <https://stoptox.mml.unc.edu/> .
-  
-
-<https://bio.tools/biotools:masi> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "MASI" ;
-  dc:description """Microbiota-active substance interactions database.
-Active Substance Interaction database.
-Try Examples: Bifidobacterium adolescentis, Enterococcus faecalis, Acarbose, Caffeic acid, Oxaprozin, Obesity, Colorectal cancer.
-
-A centralized and standardized database to catalog Microbiota-Active Substance Interaction (MASI) will be very useful for related research fields, including microbiota-related precision medicine, pharmaceutical research, food and nutrition research, clinical pharmacy, health management studies.
-
-Accumulating evidence about the interaction between human microbiota and active substances, especially for those therapeutically-relevant substances such as clinical used drugs and traditional medicines/herbs, is deepenning our understanding in the role of "our second genome" in human health and diseases, and opens new avenue for managing/treating human healthy problems/diseases by manipulating microbiota-human interactions."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://www.aiddlab.com/MASI> .
   
 
 <https://bio.tools/biotools:cofly> a sbd:Resource ;
@@ -771,14 +803,6 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   foaf:page <http://www.rxnfinder.org/additivechem/> .
   
 
-<https://bio.tools/biotools:toxsign> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "TOXsIgN" ;
-  dc:description """The TOXicogenomic sIgNature (TOXsIgN) is a cross-species resource that supports online submission, storage, and retrieval of TOXicogenomic sIgNatures. TOXsIgN aims at complementing existing resources by acting as a distribution hub for the community. One of its unique features is its ability to archive heterogeneous data. TOXsIgN thus allows users to upload lists of genes positively (overexpressed for transcriptomic assays) affected and negatively (underexpressed) affected from distinct –omics experiments (e.g., transcriptomics, proteomics, or epigenomics). It also provides users with a working environment containing a powerful search engine as well as bioinformatics/biostatistics modules that enable cross-species and cross-technology signature comparisons or enrichment analyses. TOXsIgN is thus intended to serve as a warehouse for toxicogenomics and predictive toxicology tools simultaneously based on and able to analyze the overall set of signatures deposited by the community."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://toxsign.genouest.org> .
-  
-
 <https://bio.tools/biotools:NCATS_BioPlanet> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "NCATS BioPlanet" ;
@@ -843,34 +867,10 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   foaf:page <https://sourceforge.net/projects/epig-seq/?source=navbar> .
   
 
-<https://bio.tools/biotools:t3db> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "T3DB" ;
-  dc:description """Unique bioinformatics resource that compiles comprehensive information about common or ubiquitous toxins and their toxin-targets. Each record (ToxCard) contains over 80 data fields providing detailed information on chemical properties and descriptors, toxicity values, protein and gene sequences (for both targets and toxins), molecular and cellular interaction data, toxicological data, mechanistic information and references."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://www.t3db.org> .
-  
-
-<https://bio.tools/biotools:limtox> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "LimTox" ;
-  dc:description """Text mining for toxicology."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://limtox.bioinfo.cnio.es/> .
-  
-
 <https://bio.tools/biotools:arraytrack> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "ArrayTrack" ;
   dc:description """This tool provides an integrated solution for managing, analyzing, and interpreting microarray gene expression data. Specifically, it is MIAME (Minimum Information About A Microarray Experiment)-supportive for storing both microarray data and experiment parameters associated with a pharmacogenomics or toxicogenomics study."""@en ;
   dct:license <http://example.com/unknown> ;
   foaf:page <http://www.fda.gov/ScienceResearch/BioinformaticsTools/Arraytrack/> .
-  
-
-<https://bio.tools/biotools:dbeth> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "DBETH" ;
-  dc:description """Database of sequences, structures, interaction networks and analytical results for 229 exotoxins, from 26 different human pathogenic bacterial genus. All toxins are classified into 24 different Toxin classes. The aim is to provide a comprehensive database for human pathogenic bacterial exotoxins."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <http://www.hpppi.iicb.res.in/btox/> .
   
