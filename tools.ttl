@@ -803,6 +803,14 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   foaf:page <http://www.rxnfinder.org/additivechem/> .
   
 
+<https://bio.tools/biotools:NCATS_BioPlanet> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "NCATS BioPlanet" ;
+  dc:description """Integrated Platform for Exploring the Universe of Cellular Signaling Pathways for Toxicology, Systems Biology, and Chemical Genomics."""@en ;
+  dct:license <https://spdx.org/licenses/Unlicense> ;
+  foaf:page <http://tripod.nih.gov/bioplanet/> .
+  
+
 <https://bio.tools/biotools:SiliS-PTOXRA> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "SiliS-PTOXRA" ;
@@ -817,14 +825,6 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   dc:description """Database of Chemical Constitutents of Smokeless Tobacco Products."""@en ;
   dct:license <https://spdx.org/licenses/Unlicense> ;
   foaf:page <http://bic.icmr.org.in/sltchem> .
-  
-
-<https://bio.tools/biotools:NCATS_BioPlanet> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "NCATS BioPlanet" ;
-  dc:description """Integrated Platform for Exploring the Universe of Cellular Signaling Pathways for Toxicology, Systems Biology, and Chemical Genomics."""@en ;
-  dct:license <https://spdx.org/licenses/Unlicense> ;
-  foaf:page <http://tripod.nih.gov/bioplanet/> .
   
 
 <https://bio.tools/biotools:HighResNPS> a sbd:Resource ;
