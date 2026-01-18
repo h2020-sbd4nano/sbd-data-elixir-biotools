@@ -14,6 +14,78 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:jecfa> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "JECFA Data Retriever" ;
+  dc:description """The JECFA Data Retriever is an R package and associated workflow that automates the retrieval of key identifiers and toxicological data from the Joint FAO/WHO Expert Committee on Food Additives (JECFA) database via web scraping. It provides a reproducible pipeline for accessing and processing JECFA data, facilitating more efficient research."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://ubesp-dctv.github.io/jecfa/> .
+  
+
+<https://bio.tools/biotools:toxdar> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "ToxDAR" ;
+  dc:description """ToxDAR is an R package designed for analyzing toxicological multi-omics data, integrating packages like DESeq2 and igraph, and providing a knowledge graph for data annotation and pathway analysis."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://github.com/TMCjp/ToxDAR> .
+  
+
+<https://bio.tools/biotools:geotox> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "GeoTox" ;
+  dc:description """GeoTox is an open-source R software package for characterizing the risk of perturbing molecular targets involved in adverse human health outcomes based on exposure to spatially-referenced stressor mixtures. It facilitates source-to-outcome continuum modeling for individual and population-level risk assessment."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://niehs.github.io/GeoTox/> .
+  
+
+<https://bio.tools/biotools:manamodeller> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "MANA (mMoA identification Assisted by modelling and Network Analysis)" ;
+  dc:description """MANA is a Python module that detects metabolic changes induced by chemical exposure by computing condition-specific metabolic models and analyzing their impact on metabolic networks. It provides a workflow to identify mechanisms of action (mMoA) through network analysis and visualization of metabolic changes."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://pypi.org/project/manamodeller/> .
+  
+
+<https://bio.tools/biotools:marigold> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "Marigold" ;
+  dc:description """Marigold is a free and open-source web application for analyzing zebrafish behavior, featuring a graphical user interface for tracking keypoints and exporting kinematic parameters. It leverages a custom neural network architecture for efficient pose tracking, accessible through standard web browsers."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://downeslab.github.io/marigold/> .
+  
+
+<https://bio.tools/biotools:cpsign> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "CPSign" ;
+  dc:description """CPSign is an open-source software tool for quantitative structure-activity relationship (QSAR) modeling utilizing conformal and probabilistic prediction. It supports several chemical descriptors and modeling methods, including SVM, with features for visualizing results and deploying models as REST services."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://cpsign.readthedocs.io> .
+  
+
+<https://bio.tools/biotools:pfas> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "PFAS Systematic Evidence Map (Shiny App)" ;
+  dc:description """The PFAS Systematic Evidence Map is a research synthesis and interactive database providing a systematic review of the literature on PFAS exposure. It provides a visual map, database, and analytical tools to guide research and facilitate collaboration."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://hi-this-is-lorenzo.shinyapps.io/PFAS_SEM_Shiny_App/> .
+  
+
+<https://bio.tools/biotools:mitotouch> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "MitoTouch" ;
+  dc:description """MitoTouch is a computerized method for analyzing mitochondrial shape and network architecture from confocal fluorescence images, providing more than thirty features to quantify changes in mitochondrial organization. It enables the identification of subtle differences in morphology and has potential applications in cell biology, medicine, and environmental toxicology."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://github.com/quantacell/MitoTouch> .
+  
+
+<https://bio.tools/biotools:qsar-ready> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "QSAR-ready workflow" ;
+  dc:description """This is a free and open-source workflow for standardizing chemical structures in preparation for QSAR modeling. It is implemented in KNIME and available as a Docker container."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://hub.docker.com/r/kamelmansouri/qsar-ready> .
+  
+
 <https://bio.tools/biotools:dbeth> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "DBETH" ;
@@ -803,14 +875,6 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   foaf:page <http://www.rxnfinder.org/additivechem/> .
   
 
-<https://bio.tools/biotools:SLTChemDB> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "SLTChemDB" ;
-  dc:description """Database of Chemical Constitutents of Smokeless Tobacco Products."""@en ;
-  dct:license <https://spdx.org/licenses/Unlicense> ;
-  foaf:page <http://bic.icmr.org.in/sltchem> .
-  
-
 <https://bio.tools/biotools:NCATS_BioPlanet> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "NCATS BioPlanet" ;
@@ -825,6 +889,14 @@ Fields searchable in this way are:CAS number,JECFA number,FEMA number,CoE number
   dc:description """SiliS-PTOXRA (DRY-in Silico Screening & Prediction of Toxic Hazard and Risk Assessment) for the prediction of toxicological endpoints."""@en ;
   dct:license <https://spdx.org/licenses/Unlicense> ;
   foaf:page <http://tomocomd.com/apps/ptoxra> .
+  
+
+<https://bio.tools/biotools:SLTChemDB> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "SLTChemDB" ;
+  dc:description """Database of Chemical Constitutents of Smokeless Tobacco Products."""@en ;
+  dct:license <https://spdx.org/licenses/Unlicense> ;
+  foaf:page <http://bic.icmr.org.in/sltchem> .
   
 
 <https://bio.tools/biotools:HighResNPS> a sbd:Resource ;
