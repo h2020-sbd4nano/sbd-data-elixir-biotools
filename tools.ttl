@@ -14,6 +14,14 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:ctdquerier> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "CTDquerier" ;
+  dc:description """Comparative Toxicogenomics Database data extraction, visualization and enrichment of environmental and toxicological studies."""@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://github.com/isglobal-brge/CTDquerier> .
+  
+
 <https://bio.tools/biotools:jecfa> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "JECFA Data Retriever" ;
@@ -258,14 +266,6 @@ Accumulating evidence about the interaction between human microbiota and active 
   dc:description """Principal Component Pursuit for Pattern Identification in Environmental Mixtures."""@en ;
   dct:license <https://opensource.org/license/bsd-2-clause/> ;
   foaf:page <http://github.com/lizzyagibson/PCP-LOD> .
-  
-
-<https://bio.tools/biotools:ctdquerier> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "CTDquerier" ;
-  dc:description """Comparative Toxicogenomics Database data extraction, visualization and enrichment of environmental and toxicological studies."""@en ;
-  dct:license <http://example.com/unknown> ;
-  foaf:page <https://github.com/isglobal-brge/CTDquerier> .
   
 
 <https://bio.tools/biotools:bridgedb> a sbd:Resource ;
