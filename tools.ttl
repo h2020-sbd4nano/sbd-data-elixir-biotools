@@ -14,6 +14,14 @@
  dct:license          <https://creativecommons.org/licenses/by/4.0/> . # license of this metadata
 
 
+<https://bio.tools/biotools:bridgedb> a sbd:Resource ;
+  dc:source <https://bio.tools/t?domain=toxicology> ;
+  rdfs:label "BridgeDb" ;
+  dc:description """BridgeDb is a framework to map identifiers between various databases.  It includes a Java library that provides an API to work with identifier-identifier mapping databases and resources."""@en ;
+  dct:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+  foaf:page <http://bridgedb.github.io/> .
+  
+
 <https://bio.tools/biotools:ctdquerier> a sbd:Resource ;
   dc:source <https://bio.tools/t?domain=toxicology> ;
   rdfs:label "CTDquerier" ;
@@ -266,14 +274,6 @@ Accumulating evidence about the interaction between human microbiota and active 
   dc:description """Principal Component Pursuit for Pattern Identification in Environmental Mixtures."""@en ;
   dct:license <https://opensource.org/license/bsd-2-clause/> ;
   foaf:page <http://github.com/lizzyagibson/PCP-LOD> .
-  
-
-<https://bio.tools/biotools:bridgedb> a sbd:Resource ;
-  dc:source <https://bio.tools/t?domain=toxicology> ;
-  rdfs:label "BridgeDb" ;
-  dc:description """BridgeDb is a framework to map identifiers between various databases.  It includes a Java library that provides an API to work with identifier-identifier mapping databases and resources."""@en ;
-  dct:license <http://www.apache.org/licenses/LICENSE-2.0> ;
-  foaf:page <http://bridgedb.github.io/> .
   
 
 <https://bio.tools/biotools:seqapass> a sbd:Resource ;
